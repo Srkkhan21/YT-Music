@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href=./images/favicon.png>
+  <title>YouTube Music</title>
+</head>
+
+<body>
+  <div id="parent">
+    <nav id="side-navBar">
+      <div id="navContainer1">
+        <div id="container1-elements">
+          <div id="fa-bars"><i class="fa-solid fa-bars"></i></div>
+          <div id="ytMusic-logo-cont">
+            <img src="./images/ytMusic.png" alt="YouTube Music Logo" id="ytMusic-logo" />
+          </div>
+        </div>
+      </div>
+      <div id="side-bar-cover">
+        <div id="side-bar-main">
+          <div id="guide-section">
+            <div id="home-section" class="icon-section icon-hover">
+              <div id="home-wrapper" class="bar-wrapper">
+                <div id="home-icon" class="guide-icon-class"><i class="fa-solid fa-house"></i></div>
+                <div id="home-text">Home</div>
+              </div>
+            </div>
+            <div id="explore-section" class="icon-section icon-hover">
+              <div id="explore-wrapper" class="bar-wrapper">
+                <div id="explore-icon" class="guide-icon-class"><i class="fa-regular fa-compass"></i></div>
+                <div id="explore-text">Explore</div>
+              </div>
+            </div>
+            <div id="library-section" class="icon-section icon-hover">
+              <div id="library-wrapper" class="bar-wrapper">
+                <div id="library-icon" class="guide-icon-class"><img src="./images/library.png" alt="library">
+                </div>
+                <div id="library-text">Library</div>
+              </div>
+            </div>
+            <div id="divider-section" class="icon-section">
+              <div id="divider-wrapper" class="bar-wrapper">
+                <div id="divider-text">
+                  <hr class="colored-hr">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="sign-in-container">
+            <div id="sign-in-wrapper">
+              <div id="sing-in-div">Sign in</div>
+              <div id="sign-in-details">Sign in to create & share playlists, get personalized recommendations, and more.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN SECTION -->
+
+    <main id="main">
+      <div id="dy-NavBar">
+        <div id="navContainer2">
+          <div id="search-container">
+            <div id="main-search-bar">
+              <div id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <input type="text" id="search-description" placeholder="Search songs, albums, artists, podcasts">
+            </div>
+          </div>
+        </div>
+        <div id="navContainer3">
+          <div id="wrapper3">
+            <div id="chromecast"><i class="fa-brands fa-chromecast"></i></div>
+            <div id="ellipsis"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div id="navSignIn">Sign in</div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN CONTENT  -->
+      <div id="main-container">
+        <div id="hero-image"></div>
+      </div>
+      <div id="player-container">
+        <div id="player-wrapper">
+          <div id="profile">
+            <div id="profile-image"></div><span><a href="" id="profile-name"> Jeet Gannguli, Ankit Tiwari &
+                Mi...</a></span>
+          </div>
+          <div id="cover-image"></div>
+          <div id="heading">
+            <h2>Aashiqui 2</h2>
+          </div>
+          <div id="album-date" class="album-details">Album • 2013</div>
+          <div id="album-song" class="album-details">12 songs • 54 minutes</div>
+          <div id="album-description" class="album-details">
+            <p>Aashiqui 2 is the soundtrack to the 2013 Indian Hindi-language...</p>
+          </div>
+          <div id="player-controls">
+            <div id="file-add">
+              <div class="player-round-wrapper"><i class="fa-regular fa-bookmark"></i></div></i>
+            </div>
+            <div id="play-button"><i class="fa-solid fa-play"></i></i></div>
+            <div id="player-ellipsis">
+              <div class="player-round-wrapper"><i class="fa-solid fa-ellipsis-vertical"></i>
+            </div></div>
+          </div>
+        </div>
+      </div>
+      <div id="list-container">
+        <div id="song1" class="song">
+          <div id="number1-wrapper" class="number-wrapper">
+            <div id="number1" class="numbers"><div id="one" class="number-text">1</div></div>
+          </div>
+          <div id="song1-wrapper" class="song-wrapper">
+            <div class="song-name">Tum Hi Ho</div>
+            <div class="singer">Arijit Singh • 1.1B plays</div>
+          </div>
+          <div id="feedback1-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time1-wrapper" class="time-wrapper">
+            <div id="time-div1" class="time-div">
+              <div id="time1" class="time">4:22</div>
+            </div>
+          </div>
+        </div>
+        <div id="song2" class="song">
+          <div id="number2-wrapper" class="number-wrapper">
+            <div id="number2" class="numbers"><div id="two" class="number-text">2</div></div>
+          </div>
+          <div id="song2-wrapper" class="song-wrapper">
+            <div class="song-name">Sunn Raha Hai</div>
+            <div class="singer">Ankit Tiwari • 352M plays</div>
+          </div>
+          <div id="feedback2-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time1-wrapper" class="time-wrapper">
+            <div id="time-div2" class="time-div">
+              <div id="time2" class="time">6:31</div>
+            </div>
+          </div>
+        </div>
+        <div id="song3" class="song">
+          <div id="number3-wrapper" class="number-wrapper">
+            <div id="number3" class="numbers"><div id="three" class="number-text">3</div></div>
+          </div>
+          <div id="song3-wrapper" class="song-wrapper">
+            <div class="song-name">Chahun Main Ya Naa</div>
+            <div class="singer">Palak Muchhal & Arijit Singh • 118M plays</div>
+          </div>
+          <div id="feedback3-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time3-wrapper" class="time-wrapper">
+            <div id="time-div3" class="time-div">
+              <div id="time3" class="time">5:05</div>
+            </div>
+          </div>
+        </div>
+        <div id="song4" class="song">
+          <div id="number4-wrapper" class="number-wrapper">
+            <div id="number4" class="numbers"><div id="four" class="number-text">4</div></div>
+          </div>
+          <div id="song4-wrapper" class="song-wrapper">
+            <div class="song-name">Hum Mar Jayenge</div>
+            <div class="singer">Tulsi Kumar & Arijit Singh • 296M plays</div>
+          </div>
+          <div id="feedback4-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time4-wrapper" class="time-wrapper">
+            <div id="time-div4" class="time-div">
+              <div id="time4" class="time">5:07</div>
+            </div>
+          </div>
+        </div>
+        <div id="song5" class="song">
+          <div id="number5-wrapper" class="number-wrapper">
+            <div id="number5" class="numbers"><div id="five" class="number-text">5</div></div>
+          </div>
+          <div id="song5-wrapper" class="song-wrapper">
+            <div class="song-name">Meri Aashiqui</div>
+            <div class="singer">Palak Muchhal & Arijit Singh • 154M plays</div>
+          </div>
+          <div id="feedback5-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time5-wrapper" class="time-wrapper">
+            <div id="time-div5" class="time-div">
+              <div id="time5" class="time">4:27</div>
+            </div>
+          </div>
+        </div>
+        <div id="song6" class="song">
+          <div id="number6-wrapper" class="number-wrapper">
+            <div id="number6" class="numbers"><div id="six" class="number-text">6</div></div>
+          </div>
+          <div id="song6-wrapper" class="song-wrapper">
+            <div class="song-name">Piya Aaye Na</div>
+            <div class="singer">Tulsi Kumar & K.K. • 221M plays</div>
+          </div>
+          <div id="feedback6-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time6-wrapper" class="time-wrapper">
+            <div id="time-div6" class="time-div">
+              <div id="time6" class="time">4:47</div>
+            </div>
+          </div>
+        </div>
+        <div id="song7" class="song">
+          <div id="number7-wrapper" class="number-wrapper">
+            <div id="number7" class="numbers"><div id="seven" class="number-text">7</div></div>
+          </div>
+          <div id="song7-wrapper" class="song-wrapper">
+            <div class="song-name">Bhula Dena</div>
+            <div class="singer">Mustafa Zahid • 96M plays</div>
+          </div>
+          <div id="feedback7-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time7-wrapper" class="time-wrapper">
+            <div id="time-div7" class="time-div">
+              <div id="time7" class="time">4:01</div>
+            </div>
+          </div>
+        </div>
+        <div id="song8" class="song">
+          <div id="number8-wrapper" class="number-wrapper">
+            <div id="number8" class="numbers"><div id="eight" class="number-text">8</div></div>
+          </div>
+          <div id="song8-wrapper" class="song-wrapper">
+            <div class="song-name">Aasan Nahin Yahan</div>
+            <div class="singer">Arijit Singh • 88M plays</div>
+          </div>
+          <div id="feedback8-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time8-wrapper" class="time-wrapper">
+            <div id="time-div8" class="time-div">
+              <div id="time8" class="time">3:35</div>
+            </div>
+          </div>
+        </div>
+        <div id="song9" class="song">
+          <div id="number9-wrapper" class="number-wrapper">
+            <div id="number9" class="numbers"><div id="nine" class="number-text">9</div></div>
+          </div>
+          <div id="song9-wrapper" class="song-wrapper">
+            <div class="song-name">Sunn Raha Hai</div>
+            <div class="singer">Shreya Ghoshal • 115M plays</div>
+          </div>
+          <div id="feedback9-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time9-wrapper" class="time-wrapper">
+            <div id="time-div9" class="time-div">
+              <div id="time9" class="time">5:15</div>
+            </div>
+          </div>
+        </div>
+        <div id="song10" class="song">
+          <div id="number10-wrapper" class="number-wrapper">
+            <div id="number10" class="numbers"><div id="ten" class="number-text">10</div></div>
+          </div>
+          <div id="song10-wrapper" class="song-wrapper">
+            <div class="song-name">Milne Hai Mujhse Aayi</div>
+            <div class="singer">Arijit Singh • 325M plays</div>
+          </div>
+          <div id="feedback10-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time10-wrapper" class="time-wrapper">
+            <div id="time-div10" class="time-div">
+              <div id="time10" class="time">4:56</div>
+            </div>
+          </div>
+        </div>
+        <div id="song11" class="song">
+          <div id="number11-wrapper" class="number-wrapper">
+            <div id="number11" class="numbers"><div id="eleven" class="number-text">11</div></div>
+          </div>
+          <div id="song11-wrapper" class="song-wrapper">
+            <div class="song-name">Aashiqui (The Love Theme)</div>
+            <div class="singer">Mithoon • 11M plays</div>
+          </div>
+          <div id="feedback11-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time11-wrapper" class="time-wrapper">
+            <div id="time-div11" class="time-div">
+              <div id="time11" class="time">2:43</div>
+            </div>
+          </div>
+        </div>
+        <div id="song12" class="song">
+          <div id="number12-wrapper" class="number-wrapper">
+            <div id="number12" class="numbers"><div id="twelve" class="number-text">12</div></div>
+          </div>
+          <div id="song12-wrapper" class="song-wrapper">
+            <div class="song-name">Tum Hi Ho (Remix By Dj Shadow Dubai,Dj Javed)</div>
+            <div class="singer">Arijit Singh • 2.1M plays</div>
+          </div>
+          <div id="feedback12-wrapper" class="feedback-wrapper">
+            <div class="dislike icon-hover-round"><i class="fa-solid fa-thumbs-down"></i></div>
+            <div class="like icon-hover-round"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="fb-ellipsis icon-hover-round"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+          <div id="time12-wrapper" class="time-wrapper">
+            <div id="time-div12" class="time-div">
+              <div id="time12" class="time">3:58</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- SCRIPT -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
