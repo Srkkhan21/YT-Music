@@ -43,3 +43,30 @@ document.querySelectorAll(".song").forEach(song => {
     [like, dislike, dots].forEach(el => el && (el.style.opacity = "0"));
   });
 });
+
+//MUSIC PLAYER LOGIC
+const songs = document.querySelectorAll(".song");
+const allAudios = document.querySelectorAll("audio");
+
+function toggleAudio(currentAudio) {
+  if (currentAudio.paused) {
+    allAudios.forEach(audio => {
+      if (audio !== currentAudio) {
+        audio.pause();
+        audio.currentTime = 0;
+      }
+    });
+    currentAudio.play();
+  } else {
+    currentAudio.pause();
+  }
+}
+
+songs.forEach(song => {
+  song.addEventListener("click", () => {
+    const id = song.dataset.id;
+    const audio = document.querySelector(`audio[data-id="${id}"]`);
+    console.log(`Song ${id} clicked`);
+    toggleAudio(audio);
+  });
+});
